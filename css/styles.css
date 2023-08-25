@@ -155,7 +155,7 @@ body {
     letter-spacing: 0.02em;
     color: #FFF;
     text-align: center;
-    display: block;
+    
 }
 
 .order-service-btn {
@@ -164,7 +164,9 @@ body {
     font-weight: 500;
     line-height: 1.5;
     letter-spacing: 0.04em;
-    
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
     min-width: 169px;
     height: 56px;
     border: none;
