@@ -293,12 +293,12 @@ body {
     flex-direction: column;
     justify-content: center;
     align-items: flex-start;
-    gap: 8px;
+    margin-bottom: 8px;
     align-self: stretch;
     padding-top: 32px;
     padding-bottom: 32px;
-    border: 1px solid;
     border-top: none;
+    border: 1px solid #e7e9fc;
 }
 
 .our-portfolio-section-title {
