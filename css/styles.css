@@ -155,17 +155,22 @@ body {
     letter-spacing: 0.02em;
     color: #FFF;
     text-align: center;
+    display: block;
 }
 
 .order-service-btn {
-    padding: 16 32;
     font-family: "Roboto", sans-serif;
     font-size: 16px;
     font-weight: 500;
     line-height: 1.5;
     letter-spacing: 0.04em;
+    
+    min-width: 169px;
+    height: 56px;
+    border: none;
     background: #4D5AE5;
     color: #FFF;
+    border-radius: 4px;
     }
 
 .order-service-btn:hover,
