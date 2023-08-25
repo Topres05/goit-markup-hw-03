@@ -294,13 +294,13 @@ body {
     flex-direction: column;
     justify-content: center;
     align-items: flex-start;
-    margin-bottom: 8px;
     align-self: stretch;
     padding-top: 32px;
     padding-bottom: 32px;
-    border-top: none;
     border: 1px solid #e7e9fc;
-}
+    border-top: none;
+    margin-bottom: 8px;
+    }
 
 .our-portfolio-section-title {
     font-size: 36px;
