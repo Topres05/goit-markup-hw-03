@@ -180,7 +180,7 @@ body {
 
 .our-quality-list {
     display: flex;
-    column-gap: 24px;
+    gap: 24px;
 }
 
 .our-quality-list-item {
@@ -343,7 +343,7 @@ body {
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: #4D5AE5;
-    margin-bottom: 18px;
+    margin-bottom: 16px;
     display: inline-block;
 }
 
