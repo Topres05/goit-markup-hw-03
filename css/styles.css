@@ -299,8 +299,7 @@ body {
     padding-bottom: 32px;
     border: 1px solid #e7e9fc;
     border-top: none;
-    margin-bottom: 8px;
-    }
+}
 
 .our-portfolio-section-title {
     font-size: 36px;
@@ -319,7 +318,7 @@ body {
     letter-spacing: 0.02em;
     text-align: center;
     color: #2E2F42;
-
+    margin-bottom: 8px;
 }
 
 .our-portfolio-list-text {
