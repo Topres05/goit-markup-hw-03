@@ -61,8 +61,6 @@ body {
 /* PAGE HEADER */
 
 .page-header {
-    padding-top: 24px;
-    padding-bottom: 24px;
     border-bottom: 1px solid #e7e9fc
 }
 
@@ -97,6 +95,7 @@ body {
 }
 
 .menu-link {
+    display: block;
     font-family: Roboto;
     font-size: 16px;
     font-weight: 500;
@@ -124,11 +123,13 @@ body {
 }
 
 .contacts-list {
+    display: block;
     font-family: Roboto;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #434455;
+    padding: 24px 0;
 }
 
 .contacts-list:hover,
@@ -145,7 +146,7 @@ body {
 }
 
 .main-title {
-    padding-bottom: 48px;
+    margin-bottom: 48px;
     margin-left: auto;
     margin-right: auto;
     max-width: 496px;
@@ -251,13 +252,7 @@ body {
 }
 
 .our-team-list-container {
-    display: flex;
-    width: 232px;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
     text-align: center;
-    
     padding-top: 32px;
     padding-bottom: 32px;
 }
@@ -301,12 +296,7 @@ body {
 }
 
 .our-portfolio-list-container{
-    display: flex;
     padding: 0px 16px;
-    flex-direction: column;
-    justify-content: center;
-    align-items: flex-start;
-    align-self: stretch;
     padding-top: 32px;
     padding-bottom: 32px;
     border: 1px solid #e7e9fc;
@@ -328,7 +318,6 @@ body {
     font-weight: 500;
     line-height: 1.2;
     letter-spacing: 0.02em;
-    text-align: center;
     color: #2E2F42;
     margin-bottom: 8px;
 }
